@@ -47,7 +47,7 @@ faeroyske-oyer-flagg =
 # Brukeren kan velge hvilket flagg de ønsker å printe ved å endre "Norge" stringen i variabelen flagg
 # til et av alternativene: Norge, Sverige, Danmark, Finland, Island eller Færøyene.
 # Samt variabel for feilmelding ved feil input
-flagg = "Færøyene"
+flagg = "Norge"
 feil-melding = "Har du husket å bruke stor forbokstav i ordet? Dine alternativer er Norge, Sverige, Danmark, Finland, Island, Færøyene"
 
 # If statement og else if statements for å printe de ulike flaggene basert på brukers input
