@@ -1,4 +1,3 @@
-use context essentials2021
 
 # Variabler for flaggene
 
