@@ -9,13 +9,13 @@ norsk-flagg =
             overlay-xy(rectangle(1000, 160, "solid", "white"), 0, -210,
           (rectangle(1000, 600, "solid", "crimson"))))))
 
-# Danmarks flagg
+# Sveriges flagg
 svensk-flagg =
   overlay-xy(rectangle(140, 600, "solid", "yellow"), -270, 0,
     overlay-xy(rectangle(1000, 140, "solid", "yellow"), 0, -225,
       (rectangle(1000, 600, "solid", "blue"))))
 
-# Sveriges flagg
+# Danmarks flagg
 dansk-flagg =
   overlay-xy(rectangle(120, 600, "solid", "white"), -270, 0,
     overlay-xy(rectangle(1000, 120, "solid", "white"), 0, -225,
