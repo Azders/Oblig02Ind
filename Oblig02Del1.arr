@@ -45,24 +45,24 @@ faeroyske-oyer-flagg =
 
 
 
-feil-melding = "Har du husket å bruke stor forbokstav i ordet? Dine alternativer er Norge, Sverige, Danmark, Finland, Island, Færøyene"
+feil-melding = "Vennligst prøv på nytt, husk stor forbokstav! Dine alternativer er Norge, Sverige, Danmark, Finland, Island, Færøyene"
 
-# Funtion flagg, basert på brukerinput via if statements. Eksempelvis input for bruker: "flagg("norge")
+# Function flagg, basert på brukerinput via if statements. Eksempelvis input for bruker: "flagg("Norge")
 # printer det norske flagget.
-# Brukeren kan velge velge blant norge, sverige, danmark, finland, island, færøyene.
+# Brukeren kan velge velge blant Norge, Sverige, Danmark, Finland, Island, Færøyene.
 # Eventuell feilmelding vil bli printet ved feil input i terminal.
 fun flagg(x):
-  if (x == "norge"):
+  if (x == "Norge"):
   norsk-flagg
-  else if (x == "sverige"):
+  else if (x == "Sverige"):
   svensk-flagg
-  else if (x == "danmark"):
+  else if (x == "Danmark"):
   dansk-flagg
-  else if (x == "finland"):
+  else if (x == "Finland"):
   finsk-flagg
-  else if (x == "island"):
+  else if (x == "Island"):
   islandsk-flagg
-  else if (x == "færøyene"):
+  else if (x == "Færøyene"):
   faeroyske-oyer-flagg
   else:
   feil-melding
