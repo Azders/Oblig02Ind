@@ -34,7 +34,7 @@ where:
   energi-to-number("48") is 48
 end
 
-# Fjerner apostrofer på tall
+# Endrer kolonnen energi til tall med funksjonen energi-to-number
 transform-cData = 
   transform-column(cData, "energi", energi-to-number)
 
