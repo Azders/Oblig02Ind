@@ -47,24 +47,25 @@ faeroyske-oyer-flagg =
 # Brukeren kan velge hvilket flagg de ønsker å printe ved å endre "Norge" stringen i variabelen flagg
 # til et av alternativene: Norge, Sverige, Danmark, Finland, Island eller Færøyene.
 # Samt variabel for feilmelding ved feil input
-flagg = "Norge"
+
 feil-melding = "Har du husket å bruke stor forbokstav i ordet? Dine alternativer er Norge, Sverige, Danmark, Finland, Island, Færøyene"
 
 # If statement og else if statements for å printe de ulike flaggene basert på brukers input
-if flagg == "Norge":
+fun flagg(x):
+  if (x == "norge"):
   norsk-flagg
-else if flagg == "Sverige":
+  else if (x == "sverige"):
   svensk-flagg
-else if flagg == "Danmark":
+  else if (x == "danmark"):
   dansk-flagg
-else if flagg == "Finland":
+  else if (x == "finland"):
   finsk-flagg
-else if flagg == "Island":
+  else if (x == "island"):
   islandsk-flagg
-else if flagg == "Færøyene":
+  else if (x == "færøyene"):
   faeroyske-oyer-flagg
-else:
+  else:
   feil-melding
+  end
+  
 end
-
-
