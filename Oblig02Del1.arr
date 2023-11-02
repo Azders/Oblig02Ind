@@ -44,13 +44,13 @@ faeroyske-oyer-flagg =
           (rectangle(1000, 600, "solid", "white"))))))
 
 
-# Brukeren kan velge hvilket flagg de ønsker å printe ved å endre "Norge" stringen i variabelen flagg
-# til et av alternativene: Norge, Sverige, Danmark, Finland, Island eller Færøyene.
-# Samt variabel for feilmelding ved feil input
 
 feil-melding = "Har du husket å bruke stor forbokstav i ordet? Dine alternativer er Norge, Sverige, Danmark, Finland, Island, Færøyene"
 
-# If statement og else if statements for å printe de ulike flaggene basert på brukers input
+# Funtion flagg, basert på brukerinput via if statements. Eksempelvis input for bruker: "flagg("norge")
+# printer det norske flagget.
+# Brukeren kan velge velge blant norge, sverige, danmark, finland, island, færøyene.
+# Eventuell feilmelding vil bli printet ved feil input i terminal.
 fun flagg(x):
   if (x == "norge"):
   norsk-flagg
